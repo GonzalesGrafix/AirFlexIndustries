@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air/Flex Industries Inventory</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container inventory">
+            <div class="nav-logo ">
+                <div class="nav-logo-text">
+                    <h1>Air/Flex</h1>
+                    <p>Industries</p>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+<section class="inventory-hero">
+    <div class="inventory-container">
+
+        <!-- 1. Live Search Input Bar -->
+        <div class="search-bar">
+            <input type="text" id="search-bar" placeholder="Search by name.....">
+        </div>
+        
+        
+        <!-- 2. The Header Banner Container -->
+        <div id="header-container">
+            <!-- These are placeholder texts; JavaScript Option 1 or 2 will overwrite these dynamically -->
+            <div class="grid-column">Name</div>
+            <div class="grid-column">Type</div>
+            <div class="grid-column">Description</div>
+            <div class="grid-column">Qty</div>
+        </div>
+        
+        <div class="inventory-list" id="hello-container"></div>
+    </div>
+</section>
+
+    <script src="inventory.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
