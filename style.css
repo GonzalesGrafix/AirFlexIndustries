@@ -1294,7 +1294,7 @@ select:hover {
         }
 
 .inventory-hero {
-    padding-top: 130px;
+    padding: 130px 0;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -1318,6 +1318,7 @@ select:hover {
     color: black;
     background-color: #94a3b8;
     /*background: linear-gradient(180deg, #94a3b8 0%, #64748b 100%);*/
+    font-size: 9px;
 }
 
 .inventory-list .grid-active {
